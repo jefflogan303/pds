@@ -1,0 +1,16 @@
+name: PDS
+type: theme
+base theme: false
+description: PDS theme.
+package: Custom
+core_version_requirement: ^9
+libraries:
+  - pds/global
+regions:
+  pre_header: 'Pre Header'
+  header: 'Header'
+  mobile_menu: 'Mobile menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  content: 'Content'
+  footer: 'Footer'

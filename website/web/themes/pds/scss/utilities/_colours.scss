@@ -1,0 +1,11 @@
+// _colours.scss
+
+@each $colour, $hex in $colours {
+  .bg--#{$colour} {
+    background-color: $hex;
+  }
+
+  .text--#{$colour} {
+   color: $hex;
+  }
+}

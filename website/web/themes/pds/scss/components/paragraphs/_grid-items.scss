@@ -1,0 +1,50 @@
+// _grid-items.scss
+.paragraph--type--grid-items {
+  flex-basis: 100%;
+}
+
+.paragraph--type--grid-items .inner {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 70px;
+  height: 100%;
+  border: 1px solid $white;
+  border-radius: 5px;
+
+  .field--name-field-icon {
+    margin-bottom: 13px;
+  }
+
+  .field--name-field-title {
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 33px;
+    color: $white;
+  }
+
+  .field--name-field-body {
+    font-size: 14px;
+    line-height: 20px;
+    color: $white;
+  }
+
+  .field--name-field-link {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    @include button;
+  }
+}
+
+@include for-md-up {
+  .paragraph--type--grid-items {
+    flex-basis: 46%;
+  }
+}
+
+@include for-lg-up {
+  .paragraph--type--grid-items {
+    flex-basis: 31%;
+  }
+}

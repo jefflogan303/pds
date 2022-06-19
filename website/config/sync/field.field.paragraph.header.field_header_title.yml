@@ -1,0 +1,21 @@
+uuid: f720d704-7e8e-490e-b43e-2b01a405ec0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_header_title
+    - paragraphs.paragraphs_type.header
+  module:
+    - text
+id: paragraph.header.field_header_title
+field_name: field_header_title
+entity_type: paragraph
+bundle: header
+label: 'Header title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

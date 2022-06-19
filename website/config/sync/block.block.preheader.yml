@@ -1,0 +1,25 @@
+uuid: 13b1b96c-1387-4c81-93af-0b65b5bd909b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.pre-header
+  module:
+    - system
+  theme:
+    - pds
+id: preheader
+theme: pds
+region: pre_header
+weight: 0
+provider: null
+plugin: 'system_menu_block:pre-header'
+settings:
+  id: 'system_menu_block:pre-header'
+  label: 'Pre header'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

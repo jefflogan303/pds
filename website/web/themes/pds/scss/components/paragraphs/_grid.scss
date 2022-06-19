@@ -1,0 +1,39 @@
+.paragraph--type--grid {
+  margin-bottom: 50px;
+  background-color: $dark-blue;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  .field--name-field-grid-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+    margin: 0 auto;
+    max-width: 1290px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .paragraph--type--title-and-body {
+      width: 100%;
+
+      .inner {
+        max-width: 813px;
+        margin: 0 auto;
+      }
+
+      .field--name-field-title,
+      .field--name-field-body {
+        color: $white;
+      }
+
+    }
+
+    .paragraph--type--title-and-body .field--name-field-title,
+    .paragraph--type--title-and-body .field--name-field-body {
+      color: $white;
+    }
+
+  }
+
+}

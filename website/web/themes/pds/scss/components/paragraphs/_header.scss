@@ -1,0 +1,77 @@
+// _header.scss
+.paragraph--type--header {
+  margin-bottom: 50px;
+  .banner {
+    position: relative;
+    height: 400px;
+    background-position: 100% 0;
+    background-size: cover;
+  }
+
+  .text-overlay {
+    // no svg shape available.
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #17d1ff;
+    z-index: 0;
+  }
+
+  .text-container {
+    height: 100%;
+  }
+
+  .field--name-field-header-title {
+
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    max-width: 1290px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h2 {
+      font-size: 25px;
+      line-height: 33px;
+      font-weight: bold;
+      color: $dark-blue;
+    }
+  }
+}
+
+@include for-md-up {
+  .paragraph--type--header {
+
+    .banner {
+      height: 600px;
+    }
+
+    .text-overlay {
+      // no svg shape available.
+      width: 50%;
+    }
+
+    .field--name-field-header-title {
+      top: 210px;
+
+      h2 {
+       font-size: 35px;
+       line-height: 43px;
+      }
+    }
+
+  }
+}
+
+@include for-lg-up {
+  .paragraph--type--header {
+    .field--name-field-header-title {
+      top: 210px;
+
+      h2 {
+        font-size: 55px;
+        line-height: 63px;
+      }
+    }
+  }
+}

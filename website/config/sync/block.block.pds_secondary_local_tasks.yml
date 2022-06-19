@@ -1,0 +1,22 @@
+uuid: f71f3ff2-a457-4a6c-bfe3-6f8f09cbed5a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - pds
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: pds_secondary_local_tasks
+theme: pds
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

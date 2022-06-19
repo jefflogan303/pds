@@ -1,0 +1,59 @@
+uuid: a26180a0-5271-4343-b6c2-71a583b08a34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.page
+    - paragraphs.paragraphs_type.grid
+    - paragraphs.paragraphs_type.header
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.layout
+    - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.title_and_body
+  module:
+    - entity_reference_revisions
+id: node.page.field_content
+field_name: field_content
+entity_type: node
+bundle: page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      layout: layout
+      header: header
+      title_and_body: title_and_body
+      grid: grid
+      image: image
+      link: link
+    negate: 0
+    target_bundles_drag_drop:
+      grid:
+        weight: 6
+        enabled: true
+      grid_items:
+        weight: 7
+        enabled: false
+      header:
+        weight: 4
+        enabled: true
+      image:
+        weight: 11
+        enabled: true
+      layout:
+        weight: 3
+        enabled: true
+      link:
+        weight: 13
+        enabled: true
+      title_and_body:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

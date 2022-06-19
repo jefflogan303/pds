@@ -1,0 +1,35 @@
+uuid: 860bbc74-c2b7-4214-9570-7e85896ce32f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header.field_header_title
+    - field.field.paragraph.header.field_image
+    - paragraphs.paragraphs_type.header
+  module:
+    - media
+    - text
+id: paragraph.header.default
+targetEntityType: paragraph
+bundle: header
+mode: default
+content:
+  field_header_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

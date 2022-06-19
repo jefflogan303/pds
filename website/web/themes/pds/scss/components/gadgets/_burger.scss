@@ -1,0 +1,17 @@
+// _burger.scss
+.header__mobile--trigger {
+  margin-left: 10px;
+  cursor: pointer;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.header__mobile--trigger .burger {
+  display: inline-block;
+  @include burger(25px, 3px, 5px, $dark-blue);
+}
+
+.header__mobile--trigger.is-active .burger {
+  @include burger-to-cross;
+}

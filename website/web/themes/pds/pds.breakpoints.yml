@@ -1,0 +1,24 @@
+pds.small:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+pds.medium:
+  label: narrow
+  mediaQuery: 'all and (min-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+pds.large:
+  label: wide
+  mediaQuery: 'all and (min-width: 1024px)'
+  weight: 2
+  multipliers:
+    - 1x
+pds.extra_large:
+  label: wide
+  mediaQuery: 'all and (min-width: 1280px)'
+  weight: 3
+  multipliers:
+    - 1x

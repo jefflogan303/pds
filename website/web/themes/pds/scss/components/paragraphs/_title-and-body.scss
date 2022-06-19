@@ -1,0 +1,21 @@
+// _title-and-body.scss
+.layout__region > .paragraph--type--title-and-body {
+  max-width: 833px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paragraph--type--title-and-body {
+  .field--name-field-title {
+    margin-bottom: 23px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: $dark-blue;
+  }
+  .field--name-field-body {
+    text-align: center;
+  }
+}

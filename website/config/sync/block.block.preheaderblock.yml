@@ -1,0 +1,25 @@
+uuid: 7e0f383b-94f5-4d33-ad08-374a879774ce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c26f026c-2412-493a-bbb8-c2d4bb17d8de'
+  module:
+    - block_content
+  theme:
+    - pds
+id: preheaderblock
+theme: pds
+region: pre_header
+weight: 0
+provider: null
+plugin: 'block_content:c26f026c-2412-493a-bbb8-c2d4bb17d8de'
+settings:
+  id: 'block_content:c26f026c-2412-493a-bbb8-c2d4bb17d8de'
+  label: 'Pre header block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,34 @@
+// _header.scss
+.header {
+  margin: 0 auto;
+  max-width: 1290px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header__main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header__secondary {
+  display: flex;
+  align-items: center;
+}
+
+@include for-md-up {
+  .pre-header {
+    display: block;
+  }
+
+  .header__nav {
+    flex: 1;
+  }
+
+  .header__mobile--trigger {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+# Main theme library.
+global:
+  js:
+    js/pds.js: {}
+  dependencies:
+    - core/drupal
+  css:
+    theme:
+      css/normalize.css: {}
+      css/main.css: {}

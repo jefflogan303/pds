@@ -1,0 +1,21 @@
+.pre-header {
+  display: none;
+  background-color: $light-grey;
+}
+
+.region--pre-header {
+  margin: 0 auto;
+  max-width: 1290px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.region--pre-header p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}

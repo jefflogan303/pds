@@ -1,0 +1,21 @@
+uuid: d2dac22e-b8e0-4ea9-9c1a-2de400fdc395
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.grid_items
+  module:
+    - text
+id: paragraph.grid_items.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: grid_items
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

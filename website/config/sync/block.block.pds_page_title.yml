@@ -1,0 +1,20 @@
+uuid: bb967ad4-c0e5-4593-869e-cf6ab971be9c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - pds
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: pds_page_title
+theme: pds
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
